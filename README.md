@@ -1,4 +1,4 @@
-# 🛡️ Mini SOC Lab — Home-Built Security Operations Center
+# Mini SOC Lab — Home-Built Security Operations Center
 
 > A hands-on, virtualized SOC environment simulating real-world **attack detection, log analysis, and threat monitoring** using Wazuh SIEM.
 
@@ -8,7 +8,7 @@
 
 <br>
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Lab Architecture](#-lab-architecture)
@@ -31,7 +31,7 @@
 
 ---
 
-## 🔍 About the Project
+## About the Project
 
 This project is a **Mini Security Operations Center (SOC) Lab** built entirely in a virtualized environment using Oracle VirtualBox. It simulates a real-world SOC pipeline from scratch:
 
@@ -52,7 +52,7 @@ Everything in this lab is **real** — real attacks, real logs, real detections.
 
 ---
 
-## 🏗️ Lab Architecture
+## Lab Architecture
 
 The lab consists of **3 virtual machines** running on a **Host-Only Network** in VirtualBox, completely isolated from the internet.
 
@@ -80,7 +80,7 @@ The lab consists of **3 virtual machines** running on a **Host-Only Network** in
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 | Category | Tool |
 |---|---|
@@ -97,7 +97,7 @@ The lab consists of **3 virtual machines** running on a **Host-Only Network** in
 
 ---
 
-## 💻 Environment Setup
+## Environment Setup
 
 ### Virtual Machines Created
 
@@ -126,7 +126,7 @@ Three VMs were created in VirtualBox with the following configuration:
 
 ---
 
-## 🌐 Network Validation
+## Network Validation
 
 After setting up the VMs, connectivity was verified using ICMP (ping) between all machines.
 
@@ -148,7 +148,7 @@ Successful ping responses confirmed that all three machines can communicate with
 
 ---
 
-## 📊 Wazuh SIEM Deployment
+## Wazuh SIEM Deployment
 
 Wazuh was installed on the Ubuntu server using the official automated installation script. It deploys three components:
 
@@ -176,7 +176,7 @@ https://192.168.56.103
 
 ---
 
-## 🖥️ Wazuh Agent on Windows Victim
+## Wazuh Agent on Windows Victim
 
 The Wazuh Agent was installed on the Windows Tiny10 machine to forward logs to the SIEM.
 
@@ -186,13 +186,13 @@ The Wazuh Agent was installed on the Windows Tiny10 machine to forward logs to t
 3. Started the agent service
 4. Verified connection on the Wazuh Dashboard under **Agents**
 
-**Result:** Agent showed status **Active** ✅
+**Result:** Agent showed status **Active** 
 
 <br>
 
 ---
 
-## 📁 File Integrity Monitoring (FIM)
+## File Integrity Monitoring (FIM)
 
 FIM was enabled using Wazuh's built-in `syscheck` module, which monitors specified directories for any file changes.
 
@@ -220,7 +220,7 @@ Wazuh generated a separate alert for each action — file added, file modified, 
 
 ---
 
-## ⚔️ Attack Simulation
+## Attack Simulation
 
 ### 1. Reconnaissance — Nmap
 
@@ -275,7 +275,7 @@ Before running Hydra, RDP was enabled on the Windows machine:
 netsh advfirewall firewall set rule group="remote desktop" new enable=Yes
 ```
 
-Verified with: `nmap -p 3389 192.168.56.102` → Status: **OPEN** ✅
+Verified with: `nmap -p 3389 192.168.56.102` → Status: **OPEN** 
 
 #### Hydra Attack Command
 
@@ -324,7 +324,7 @@ Each attempt generated a **Windows Event ID 4625 (Failed Logon)** on the victim,
 
 ---
 
-## 🚨 Detection & Alerting in Wazuh
+## Detection & Alerting in Wazuh
 
 Wazuh detected and correlated the brute-force events using the following rules:
 
@@ -350,7 +350,7 @@ Wazuh detected and correlated the brute-force events using the following rules:
 
 ---
 
-## 🗺️ MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
@@ -364,7 +364,7 @@ Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
 ---
 
-## ⚠️ Challenges & Solutions
+## Challenges & Solutions
 
 | Challenge | Solution |
 |---|---|
@@ -378,7 +378,7 @@ Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 - How a **SIEM ingests and correlates logs** from endpoints in real time
 - How **brute-force attacks** look from both the attacker and defender perspective
@@ -391,7 +391,7 @@ Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - [ ] Add malware simulation (e.g., reverse shell, payload delivery)
 - [ ] Integrate threat intelligence feeds into Wazuh
@@ -405,19 +405,19 @@ Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
 ---
 
-## 👤 About Me
+## About Me
 
 **Abhishek Prajapat**  
-🎓 ECE Undergrad — Swami Keshvanand Institute of Technology, Jaipur  
-📍 Jaipur, Rajasthan, India
+ ECE Undergrad — Swami Keshvanand Institute of Technology, Jaipur  
+ Jaipur, Rajasthan, India
 
 Certified SOC Analyst (CSA) and CCNA 200-301 certified, with a strong foundation in incident response, threat detection, SIEM monitoring, log analysis, and network defence. Actively pursuing a career as a **SOC Analyst L1** and building hands-on skills through real-world lab environments like this one.
 
-**🌐 Vision** — To grow into a cybersecurity professional who not only responds to threats but also proactively strengthens defence strategies, specialising in purple teaming and advanced SOC operations.
+** Vision** — To grow into a cybersecurity professional who not only responds to threats but also proactively strengthens defence strategies, specialising in purple teaming and advanced SOC operations.
 
 ---
 
-🌐Connect with me :
+Connect with me :
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Prajapat-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhii-prajapati6350)
 [![GitHub](https://img.shields.io/badge/GitHub-Abhii--prajapat-black?style=flat&logo=github)](https://github.com/Abhii-prajapat)

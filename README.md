@@ -4,7 +4,7 @@
 
 <br>
 
-![Architecture](screenshots/architecture/SOC_architecture.png)
+![Architecture](Screenshots/architecture/SOC_architecture.png)
 
 <br>
 
@@ -114,13 +114,13 @@ Three VMs were created in VirtualBox with the following configuration:
 ### Screenshots
 
 **Kali Linux Attacker — Network Setup**
-![Kali Network Setup](screenshots/setup/setup-kali-attacker-network.png)
+![Kali Network Setup](Screenshots/setup/setup-kali-attacker-network.png)
 
 **Windows Tiny10 Victim — Desktop**
-![Windows Victim Desktop](screenshots/setup/tiny10-victim-desktop.png)
+![Windows Victim Desktop](Screenshots/setup/tiny10-victim-desktop.png)
 
 **Windows Firewall Configuration (RDP Enabled)**
-![Firewall Config](screenshots/setup/windows-firewall-config.png)
+![Firewall Config](Screenshots/setup/windows-firewall-config.png)
 
 <br>
 
@@ -142,7 +142,7 @@ ping 192.168.56.103
 Successful ping responses confirmed that all three machines can communicate with each other.
 
 **Screenshot — Network Connectivity Test**
-![Network Connectivity](screenshots/network/setup-network-connectivity-test.png)
+![Network Connectivity](Screenshots/network/setup-network-connectivity-test.png)
 
 <br>
 
@@ -164,13 +164,13 @@ https://192.168.56.103
 ### Screenshots
 
 **Wazuh Agent Connected — Overview**
-![Wazuh Overview](screenshots/wazuh/wazuh-agent-connected-overview.png)
+![Wazuh Overview](Screenshots/wazuh/wazuh-agent-connected-overview.png)
 
 **Wazuh Agent — Detailed Dashboard**
-![Wazuh Detailed](screenshots/wazuh/wazuh-agent-detailed-dashboard.png)
+![Wazuh Detailed](Screenshots/wazuh/wazuh-agent-detailed-dashboard.png)
 
 **Wazuh Agent — Monitoring Dashboard**
-![Wazuh Monitoring](screenshots/wazuh/wazuh-agent-monitoring-dashboard.png)
+![Wazuh Monitoring](Screenshots/wazuh/wazuh-agent-monitoring-dashboard.png)
 
 <br>
 
@@ -211,10 +211,10 @@ Wazuh generated a separate alert for each action — file added, file modified, 
 ### Screenshots
 
 **FIM Dashboard Overview**
-![FIM Dashboard](screenshots/attacks/fim/fim-dashboard-overview.png)
+![FIM Dashboard](Screenshots/attacks/fim/fim-dashboard-overview.png)
 
 **FIM Events Detection**
-![FIM Events](screenshots/attacks/fim/fim-events-detection.png)
+![FIM Events](Screenshots/attacks/fim/fim-events-detection.png)
 
 <br>
 
@@ -247,16 +247,16 @@ nmap -p 3389 192.168.56.102
 ### Screenshots
 
 **Network Discovery Scan**
-![Network Discovery](screenshots/attacks/recon/attacks-network-discovery.png)
+![Network Discovery](Screenshots/attacks/recon/attacks-network-discovery.png)
 
 **Nmap Service Scan**
-![Service Scan](screenshots/attacks/recon/attacks-nmap-service-scan.png)
+![Service Scan](Screenshots/attacks/recon/attacks-nmap-service-scan.png)
 
 **Nmap Scan Result**
-![Nmap Scan](screenshots/attacks/recon/attack-nmap-scan.png)
+![Nmap Scan](Screenshots/attacks/recon/attack-nmap-scan.png)
 
 **RDP Port Open Confirmed**
-![RDP Open](screenshots/attacks/recon/attack-nmap-rdp-open.png)
+![RDP Open](Screenshots/attacks/recon/attack-nmap-rdp-open.png)
 
 ---
 
@@ -306,19 +306,19 @@ Each attempt generated a **Windows Event ID 4625 (Failed Logon)** on the victim,
 ### Screenshots
 
 **RDP Failed Logins on Victim**
-![Failed Logins](screenshots/attacks/rdp-bruteforce/attack-rdp-failed-logins.png)
+![Failed Logins](Screenshots/attacks/rdp-bruteforce/attack-rdp-failed-logins.png)
 
 **Brute Force Detected in Wazuh**
-![Brute Force Detected](screenshots/attacks/rdp-bruteforce/attack-rdp-bruteforce-detected.png)
+![Brute Force Detected](Screenshots/attacks/rdp-bruteforce/attack-rdp-bruteforce-detected.png)
 
 **Failed Login Spike (Alert Timeline)**
-![Login Spike](screenshots/attacks/rdp-bruteforce/attack-rdp-failed-login-spike.png)
+![Login Spike](Screenshots/attacks/rdp-bruteforce/attack-rdp-failed-login-spike.png)
 
 **Alert Details View**
-![Alert Details](screenshots/attacks/rdp-bruteforce/attack-rdp-alert-details.png)
+![Alert Details](Screenshots/attacks/rdp-bruteforce/attack-rdp-alert-details.png)
 
 **Brute Force Detection Dashboard**
-![Detection Dashboard](screenshots/attacks/rdp-bruteforce/detection-bruteforce-dashboard.png)
+![Detection Dashboard](Screenshots/attacks/rdp-bruteforce/detection-bruteforce-dashboard.png)
 
 <br>
 
@@ -419,4 +419,4 @@ Built this lab as part of hands-on preparation for a SOC Analyst role.
 
 ---
 
-> *"The best way to learn security is to break things in a safe environment — then understand why they broke."*
+> *"The best way to learn security is to break things in a safe environment — then understand why they broke."* 

@@ -407,13 +407,20 @@ Wazuh automatically mapped detected events to the MITRE ATT&CK framework:
 
 ## 👤 About Me
 
-**Abhii** — 2nd Year ECE Student at SKIT, Jaipur  
-Pursuing cybersecurity with a focus on SOC analysis, SIEM, and threat detection.
+**Abhishek Prajapat**  
+🎓 ECE Undergrad — Swami Keshvanand Institute of Technology, Jaipur  
+📍 Jaipur, Rajasthan, India
 
-Built this lab as part of hands-on preparation for a SOC Analyst role.
+Certified SOC Analyst (CSA) and CCNA 200-301 certified, with a strong foundation in incident response, threat detection, SIEM monitoring, log analysis, and network defence. Actively pursuing a career as a **SOC Analyst L1** and building hands-on skills through real-world lab environments like this one.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com)
+**🌐 Vision** — To grow into a cybersecurity professional who not only responds to threats but also proactively strengthens defence strategies, specialising in purple teaming and advanced SOC operations.
+
+---
+
+📧 abhishekprajapati6350@gmail.com
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Prajapat-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhii-prajapati6350)
+[![GitHub](https://img.shields.io/badge/GitHub-Abhii--prajapat-black?style=flat&logo=github)](https://github.com/Abhii-prajapat)
 
 <br>
 

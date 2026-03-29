@@ -417,7 +417,7 @@ Certified SOC Analyst (CSA) and CCNA 200-301 certified, with a strong foundation
 
 ---
 
-📧 abhishekprajapati6350@gmail.com
+🌐Connect with me :
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Prajapat-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/abhii-prajapati6350)
 [![GitHub](https://img.shields.io/badge/GitHub-Abhii--prajapat-black?style=flat&logo=github)](https://github.com/Abhii-prajapat)
